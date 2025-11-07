@@ -1,5 +1,6 @@
 import pool from "../config/db.js";
 import bcrypt from "bcrypt";
+import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 
 export const superAdminLogin = async (req, res) => {
